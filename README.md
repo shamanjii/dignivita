@@ -1,12 +1,12 @@
-# LumosCare – Osteopathie mit Herz
+# Cura Fortis – Starke Fürsorge
 
-Eine soziale Initiative der **Lumos Vitalis eG** aus Hamburg.
+**Osteopathie mit Herz** – Eine soziale Initiative der **Lumos Vitalis eG** aus Hamburg.
 
-![LumosCare Logo](assets/logos/lumoscare-logo.svg)
+![Cura Fortis Logo](assets/logos/curafortis-logo.svg)
 
-## 📖 Über LumosCare
+## 📖 Über Cura Fortis
 
-LumosCare bringt osteopathische Versorgung zu Menschen, die sie am meisten brauchen – kostenfrei, professionell und mit Herz.
+Cura Fortis bringt osteopathische Versorgung zu Menschen, die sie am meisten brauchen – kostenfrei, professionell und mit Herz.
 
 Wir ermöglichen Kindern, Senioren und schwerkranken Menschen Zugang zu ganzheitlicher osteopathischer Behandlung in:
 - Kinder- und Jugendhilfeeinrichtungen
@@ -24,14 +24,14 @@ Wir ermöglichen Kindern, Senioren und schwerkranken Menschen Zugang zu ganzheit
 
 ## 🎨 Corporate Identity
 
-Diese Website folgt dem **Corporate Identity Manual** der LumosCare:
+Diese Website folgt dem **Logo-Design** von Cura Fortis:
 
 ### Farbpalette
-- **Lumos-Blau**: `#2B5F8C` – Vertrauen, Ruhe, Professionalität
-- **Care-Warmgelb**: `#F4B860` – Wärme, Hoffnung, Licht
+- **Cura Navy**: `#1a3a52` – Vertrauen, Stärke, Professionalität (aus dem Logo)
+- **Fortis Beige**: `#e8dcc8` – Wärme, Fürsorge, Sanftheit (aus dem Logo)
+- **Accent Teal**: `#4a7c8f` – Akzentfarbe, Harmonie
 - **Sanftes Grau**: `#E8EBF0` – Hintergründe
 - **Tiefgrau**: `#3A4A5C` – Texte
-- **Herzrot**: `#D97168` – Emotionale Akzente (sparsam)
 
 ### Typografie
 - **Primär**: Poppins (Headlines, Logo)
@@ -76,7 +76,7 @@ lumoscare/
 
 1. Repository klonen:
 ```bash
-git clone https://github.com/LumosVitalis/lumoscare.git
+git clone https://github.com/shamanjii/lumoscare.git
 cd lumoscare
 ```
 
@@ -105,7 +105,7 @@ Die Website wird automatisch über GitHub Pages bereitgestellt.
 
 Die Website ist dann verfügbar unter:
 ```
-https://lumosvitalis.github.io/lumoscare/
+https://shamanjii.github.io/lumoscare/
 ```
 
 ### Eigene Domain verbinden
@@ -113,7 +113,7 @@ https://lumosvitalis.github.io/lumoscare/
 1. CNAME-Datei im Root erstellen mit deiner Domain
 2. DNS-Einstellungen beim Domain-Provider anpassen:
    - A-Record auf GitHub Pages IPs
-   - Oder CNAME-Record auf `lumosvitalis.github.io`
+   - Oder CNAME-Record auf `shamanjii.github.io`
 
 ## 📝 To-Do
 
@@ -144,11 +144,11 @@ https://lumosvitalis.github.io/lumoscare/
 ## 📞 Kontakt
 
 **Lumos Vitalis eG**
-Projektleitung LumosCare
+Projektleitung Cura Fortis
 Christian Selzle & Joshua Alsen
 
 📧 vorstand@lumosvitalis.de
-🌐 www.lumosvitalis.de/lumoscare
+🌐 www.lumosvitalis.de/curafortis
 📍 Mindelweg 6A, 22393 Hamburg
 
 **Start der Pilotphase:** Frühjahr 2026 in Hamburg

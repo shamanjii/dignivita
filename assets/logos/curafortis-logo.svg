@@ -1,0 +1,39 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+  <!-- Zwei schützende Hände -->
+  <g id="hands">
+    <!-- Linke Hand -->
+    <path d='M 50,120 Q 40,100 35,85 Q 33,75 35,65 Q 37,55 45,50 L 55,48 Q 65,48 72,55 L 85,75 L 85,130 Q 80,135 70,135 Q 60,130 50,120 Z'
+      fill='#1a3a52'
+      stroke='#1a3a52'
+      stroke-width='2'/>
+
+    <!-- Rechte Hand -->
+    <path d='M 150,120 Q 160,100 165,85 Q 167,75 165,65 Q 163,55 155,50 L 145,48 Q 135,48 128,55 L 115,75 L 115,130 Q 120,135 130,135 Q 140,130 150,120 Z'
+      fill='#1a3a52'
+      stroke='#1a3a52'
+      stroke-width='2'/>
+  </g>
+
+  <!-- Medizinisches Kreuz in der Mitte -->
+  <g id="cross">
+    <!-- Vertikaler Balken -->
+    <rect x='92' y='60' width='16' height='60' rx='3'
+      fill='#1a3a52'
+      stroke='#1a3a52'
+      stroke-width='2'/>
+
+    <!-- Horizontaler Balken -->
+    <rect x='75' y='82' width='50' height='16' rx='3'
+      fill='#1a3a52'
+      stroke='#1a3a52'
+      stroke-width='2'/>
+
+    <!-- Innere Highlights für Tiefe -->
+    <rect x='95' y='65' width='10' height='50' rx='2'
+      fill='#e8dcc8'
+      opacity='0.3'/>
+    <rect x='80' y='85' width='40' height='10' rx='2'
+      fill='#e8dcc8'
+      opacity='0.3'/>
+  </g>
+</svg>

@@ -85,6 +85,6 @@ section {
 
 /* Selection */
 ::selection {
-    background-color: var(--care-yellow);
-    color: var(--deep-gray);
+    background-color: var(--fortis-beige);
+    color: var(--cura-navy);
 }

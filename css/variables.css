@@ -1,22 +1,23 @@
 /*
- * LumosCare - CSS Variables
- * Basierend auf dem Corporate Identity Manual
+ * Cura Fortis - CSS Variables
+ * Basierend auf dem Corporate Identity und Logo-Design
  */
 
 :root {
-    /* Primärfarben */
-    --lumos-blue: #2B5F8C;
-    --care-yellow: #F4B860;
+    /* Primärfarben aus dem Logo */
+    --cura-navy: #1a3a52;        /* Dunkles Navy-Blau aus dem Logo */
+    --fortis-beige: #e8dcc8;      /* Heller Beige-Hintergrund */
+    --cura-navy-light: #2d5570;   /* Helleres Navy für Hover */
 
     /* Sekundärfarben */
     --soft-gray: #E8EBF0;
     --deep-gray: #3A4A5C;
-    --heart-red: #D97168;
+    --accent-teal: #4a7c8f;       /* Akzentfarbe abgeleitet vom Navy */
     --white: #ffffff;
 
     /* Hover-Zustände */
-    --lumos-blue-dark: #1e4466;
-    --care-yellow-light: #f5c574;
+    --cura-navy-dark: #0f2433;
+    --fortis-beige-dark: #d4c5ab;
 
     /* Typografie */
     --font-primary: 'Poppins', sans-serif;

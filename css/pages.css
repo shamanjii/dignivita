@@ -5,7 +5,7 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(43, 95, 140, 0.95), rgba(43, 95, 140, 0.85)),
+    background: linear-gradient(135deg, rgba(26, 58, 82, 0.95), rgba(45, 85, 112, 0.90)),
                 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z" fill="%23E8EBF0" opacity="0.1"/></svg>');
     background-size: cover;
     background-position: center;
@@ -23,8 +23,8 @@
     right: -10%;
     width: 500px;
     height: 500px;
-    background: var(--care-yellow);
-    opacity: 0.1;
+    background: var(--fortis-beige);
+    opacity: 0.15;
     border-radius: 50%;
     z-index: 0;
 }
@@ -56,7 +56,7 @@
 }
 
 .about-text h3 {
-    color: var(--lumos-blue);
+    color: var(--cura-navy);
     margin-bottom: var(--spacing-md);
 }
 
@@ -79,8 +79,8 @@
     right: -20px;
     width: 100px;
     height: 100px;
-    background: var(--care-yellow);
-    opacity: 0.2;
+    background: var(--cura-navy);
+    opacity: 0.1;
     border-radius: 50%;
     z-index: 0;
 }
@@ -123,7 +123,7 @@
     width: 80px;
     height: 80px;
     margin: 0 auto var(--spacing-md);
-    background: var(--lumos-blue);
+    background: var(--cura-navy);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
 }
 
 .group-card h3 {
-    color: var(--lumos-blue);
+    color: var(--cura-navy);
     margin-bottom: var(--spacing-sm);
     font-size: 1.5rem;
 }
@@ -153,7 +153,8 @@
 .value-icon {
     width: 60px;
     height: 60px;
-    background: var(--care-yellow);
+    background: var(--fortis-beige);
+    border: 2px solid var(--cura-navy);
     border-radius: 50%;
     margin: 0 auto var(--spacing-sm);
     display: flex;
@@ -163,13 +164,13 @@
 }
 
 .value-item h4 {
-    color: var(--lumos-blue);
+    color: var(--cura-navy);
     margin-bottom: var(--spacing-xs);
 }
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(135deg, var(--lumos-blue), #3a7ab8);
+    background: linear-gradient(135deg, var(--cura-navy), var(--accent-teal));
     color: var(--white);
     text-align: center;
 }
@@ -205,12 +206,12 @@
 }
 
 .contact-info a {
-    color: var(--lumos-blue);
+    color: var(--cura-navy);
     font-weight: 600;
 }
 
 .contact-info a:hover {
-    color: var(--care-yellow);
+    color: var(--accent-teal);
 }
 
 /* Feature Section */
@@ -225,11 +226,11 @@
     padding: var(--spacing-lg);
     background: var(--white);
     border-radius: var(--radius-md);
-    border-left: 4px solid var(--lumos-blue);
+    border-left: 4px solid var(--cura-navy);
 }
 
 .feature-card h3 {
-    color: var(--lumos-blue);
+    color: var(--cura-navy);
     margin-bottom: var(--spacing-sm);
 }
 
@@ -262,7 +263,7 @@
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--care-yellow);
+    border-color: var(--cura-navy);
 }
 
 .form-group textarea {
