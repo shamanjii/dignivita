@@ -1,0 +1,187 @@
+/*
+ * LumosCare - Component Styles
+ * Wiederverwendbare UI-Komponenten
+ */
+
+/* Buttons */
+.btn {
+    padding: var(--spacing-sm) 2.5rem;
+    border-radius: var(--radius-lg);
+    font-size: var(--fs-body);
+    font-weight: 600;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    display: inline-block;
+    text-align: center;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.btn-primary {
+    background: var(--care-yellow);
+    color: var(--deep-gray);
+}
+
+.btn-primary:hover {
+    background: var(--care-yellow-light);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(244, 184, 96, 0.4);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.btn-secondary:hover {
+    background: var(--white);
+    color: var(--lumos-blue);
+}
+
+.btn-blue {
+    background: var(--lumos-blue);
+    color: var(--white);
+}
+
+.btn-blue:hover {
+    background: var(--lumos-blue-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Button Groups */
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Cards */
+.card {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    color: var(--lumos-blue);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Wave Divider */
+.wave-divider {
+    position: relative;
+    height: 80px;
+    background: var(--white);
+}
+
+.wave-divider svg {
+    position: absolute;
+    top: -79px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+/* Icons */
+.icon-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icon-primary {
+    background: var(--care-yellow);
+}
+
+.icon-secondary {
+    background: var(--lumos-blue);
+}
+
+/* Grid Layouts */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+}
+
+.grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+/* Responsive Grids */
+@media (max-width: 768px) {
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* Quote Box */
+.quote-box {
+    background: var(--care-yellow);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--lumos-blue);
+    font-style: italic;
+    color: var(--deep-gray);
+}
+
+/* Background Variants */
+.bg-white {
+    background: var(--white);
+}
+
+.bg-gray {
+    background: var(--soft-gray);
+}
+
+.bg-blue {
+    background: var(--lumos-blue);
+    color: var(--white);
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(135deg, var(--lumos-blue), #3a7ab8);
+    color: var(--white);
+}

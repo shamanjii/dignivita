@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+  <!-- Hände/Arme -->
+  <path d='M60 80 Q50 60 40 80 L40 120 Q50 110 60 110 L60 80 M100 40 Q80 20 60 40 L100 80 L140 40 Q120 20 100 40 M140 80 L140 110 Q150 110 160 120 L160 80 Q150 60 140 80'
+    stroke='#2B5F8C'
+    stroke-width='8'
+    fill='none'
+    stroke-linecap='round'
+    stroke-linejoin='round'/>
+
+  <!-- Herz -->
+  <path d='M100 80 Q70 110 100 150 Q130 110 100 80'
+    fill='#D97168'
+    stroke='#D97168'
+    stroke-width='6'/>
+
+  <!-- Lichtpunkte (Lumos) -->
+  <path d='M100 35 L100 45 M60 50 L65 55 M140 50 L135 55 M40 90 L30 90 M160 90 L170 90 M45 130 L40 135 M155 130 L160 135'
+    stroke='#F4B860'
+    stroke-width='6'
+    stroke-linecap='round'/>
+</svg>

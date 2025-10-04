@@ -1,0 +1,65 @@
+/*
+ * LumosCare - CSS Variables
+ * Basierend auf dem Corporate Identity Manual
+ */
+
+:root {
+    /* Primärfarben */
+    --lumos-blue: #2B5F8C;
+    --care-yellow: #F4B860;
+
+    /* Sekundärfarben */
+    --soft-gray: #E8EBF0;
+    --deep-gray: #3A4A5C;
+    --heart-red: #D97168;
+    --white: #ffffff;
+
+    /* Hover-Zustände */
+    --lumos-blue-dark: #1e4466;
+    --care-yellow-light: #f5c574;
+
+    /* Typografie */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+
+    /* Schriftgrößen */
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 2rem;
+    --fs-h4: 1.5rem;
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 5rem;
+
+    /* Border Radius */
+    --radius-sm: 10px;
+    --radius-md: 20px;
+    --radius-lg: 50px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 10px rgba(0,0,0,0.05);
+    --shadow-md: 0 5px 20px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.1);
+
+    /* Transitions */
+    --transition-base: 0.3s ease;
+
+    /* Layout */
+    --max-width: 1200px;
+}
+
+/* Responsive Schriftgrößen */
+@media (max-width: 768px) {
+    :root {
+        --fs-h1: 2rem;
+        --fs-h2: 1.75rem;
+        --fs-h3: 1.5rem;
+        --fs-h4: 1.25rem;
+    }
+}
