@@ -29,9 +29,9 @@ nav {
 }
 
 .logo-img {
+    height: 45px;
     width: auto;
-    height: 50px;
-    max-width: 80px;
+    max-width: 200px;
 }
 
 .logo-text h1 {
