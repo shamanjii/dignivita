@@ -147,7 +147,7 @@ Projektleitung DigniVita
 Christian Selzle & Joshua Alsen
 
 📧 dignivita@lumosvitalis.de
-🌐 www.lumosvitalis.de/dignivita
+🌐 dignivita.lumosvitalis.de
 📍 Mindelweg 6A, 22393 Hamburg
 
 **Start der Pilotphase:** Frühjahr 2026 in Hamburg
