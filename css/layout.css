@@ -1,5 +1,5 @@
 /*
- * LumosCare - Layout Styles
+ * DigniVita - Layout Styles
  * Header, Navigation, Footer
  */
 
@@ -47,7 +47,7 @@ nav {
 
 .logo-text h1 {
     font-size: 1.5rem;
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     line-height: 1.2;
 }
 
@@ -70,7 +70,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
 }
 
 /* Mobile Menu Toggle */
@@ -84,7 +84,7 @@ nav a.active {
 .menu-toggle span {
     width: 25px;
     height: 3px;
-    background: var(--cura-navy);
+    background: var(--digni-blue);
     border-radius: 2px;
     transition: var(--transition-base);
 }
@@ -132,7 +132,7 @@ footer p {
 
 .footer-section h4 {
     margin-bottom: var(--spacing-sm);
-    color: var(--fortis-beige);
+    color: var(--vita-warm);
 }
 
 .footer-section ul {

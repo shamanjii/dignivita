@@ -1,5 +1,5 @@
 /*
- * LumosCare - Component Styles
+ * DigniVita - Component Styles
  * Wiederverwendbare UI-Komponenten
  */
 
@@ -19,16 +19,16 @@
 }
 
 .btn-primary {
-    background: var(--fortis-beige);
-    color: var(--cura-navy);
-    border: 2px solid var(--cura-navy);
+    background: var(--vita-warm);
+    color: var(--digni-blue);
+    border: 2px solid var(--digni-blue);
 }
 
 .btn-primary:hover {
-    background: var(--cura-navy);
-    color: var(--fortis-beige);
+    background: var(--digni-blue);
+    color: var(--vita-warm);
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(26, 58, 82, 0.3);
+    box-shadow: 0 5px 20px rgba(44, 95, 127, 0.3);
 }
 
 .btn-secondary {
@@ -39,16 +39,16 @@
 
 .btn-secondary:hover {
     background: var(--white);
-    color: var(--cura-navy);
+    color: var(--digni-blue);
 }
 
 .btn-blue {
-    background: var(--cura-navy);
+    background: var(--digni-blue);
     color: var(--white);
 }
 
 .btn-blue:hover {
-    background: var(--cura-navy-dark);
+    background: var(--digni-blue-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
@@ -77,7 +77,7 @@
 /* Section Title */
 .section-title {
     text-align: center;
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     margin-bottom: var(--spacing-lg);
 }
 
@@ -108,12 +108,12 @@
 }
 
 .icon-primary {
-    background: var(--fortis-beige);
-    border: 2px solid var(--cura-navy);
+    background: var(--vita-warm);
+    border: 2px solid var(--digni-blue);
 }
 
 .icon-secondary {
-    background: var(--cura-navy);
+    background: var(--digni-blue);
 }
 
 /* Grid Layouts */
@@ -162,10 +162,10 @@
 
 /* Quote Box */
 .quote-box {
-    background: var(--fortis-beige);
+    background: var(--vita-warm);
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
-    border-left: 4px solid var(--cura-navy);
+    border-left: 4px solid var(--digni-blue);
     font-style: italic;
     color: var(--deep-gray);
 }
@@ -180,11 +180,11 @@
 }
 
 .bg-blue {
-    background: var(--cura-navy);
+    background: var(--digni-blue);
     color: var(--white);
 }
 
 .bg-gradient-blue {
-    background: linear-gradient(135deg, var(--cura-navy), var(--accent-teal));
+    background: linear-gradient(135deg, var(--digni-blue), var(--accent-green));
     color: var(--white);
 }

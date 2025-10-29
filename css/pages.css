@@ -1,11 +1,11 @@
 /*
- * LumosCare - Page-Specific Styles
+ * DigniVita - Page-Specific Styles
  * Styles für verschiedene Sektionen
  */
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(26, 58, 82, 0.95), rgba(45, 85, 112, 0.90)),
+    background: linear-gradient(135deg, rgba(44, 95, 127, 0.95), rgba(74, 124, 154, 0.90)),
                 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z" fill="%23E8EBF0" opacity="0.1"/></svg>');
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@
     right: -10%;
     width: 500px;
     height: 500px;
-    background: var(--fortis-beige);
+    background: var(--vita-warm);
     opacity: 0.15;
     border-radius: 50%;
     z-index: 0;
@@ -56,7 +56,7 @@
 }
 
 .about-text h3 {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     margin-bottom: var(--spacing-md);
 }
 
@@ -79,7 +79,7 @@
     right: -20px;
     width: 100px;
     height: 100px;
-    background: var(--cura-navy);
+    background: var(--digni-blue);
     opacity: 0.1;
     border-radius: 50%;
     z-index: 0;
@@ -123,7 +123,7 @@
     width: 80px;
     height: 80px;
     margin: 0 auto var(--spacing-md);
-    background: var(--cura-navy);
+    background: var(--digni-blue);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
 }
 
 .group-card h3 {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     margin-bottom: var(--spacing-sm);
     font-size: 1.5rem;
 }
@@ -153,8 +153,8 @@
 .value-icon {
     width: 60px;
     height: 60px;
-    background: var(--fortis-beige);
-    border: 2px solid var(--cura-navy);
+    background: var(--vita-warm);
+    border: 2px solid var(--digni-blue);
     border-radius: 50%;
     margin: 0 auto var(--spacing-sm);
     display: flex;
@@ -164,13 +164,13 @@
 }
 
 .value-item h4 {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     margin-bottom: var(--spacing-xs);
 }
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(135deg, var(--cura-navy), var(--accent-teal));
+    background: linear-gradient(135deg, var(--digni-blue), var(--accent-green));
     color: var(--white);
     text-align: center;
 }
@@ -206,12 +206,12 @@
 }
 
 .contact-info a {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     font-weight: 600;
 }
 
 .contact-info a:hover {
-    color: var(--accent-teal);
+    color: var(--accent-green);
 }
 
 /* Feature Section */
@@ -226,11 +226,11 @@
     padding: var(--spacing-lg);
     background: var(--white);
     border-radius: var(--radius-md);
-    border-left: 4px solid var(--cura-navy);
+    border-left: 4px solid var(--digni-blue);
 }
 
 .feature-card h3 {
-    color: var(--cura-navy);
+    color: var(--digni-blue);
     margin-bottom: var(--spacing-sm);
 }
 
@@ -263,7 +263,7 @@
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--cura-navy);
+    border-color: var(--digni-blue);
 }
 
 .form-group textarea {

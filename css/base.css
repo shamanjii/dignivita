@@ -1,5 +1,5 @@
 /*
- * LumosCare - Base Styles
+ * DigniVita - Base Styles
  * Reset und grundlegende Styles
  */
 
@@ -85,6 +85,6 @@ section {
 
 /* Selection */
 ::selection {
-    background-color: var(--fortis-beige);
-    color: var(--cura-navy);
+    background-color: var(--vita-warm);
+    color: var(--digni-blue);
 }

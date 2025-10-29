@@ -1,12 +1,12 @@
-# Cura Fortis – Starke Fürsorge
+# DigniVita
 
 **Osteopathie mit Herz** – Eine soziale Initiative der **Lumos Vitalis eG** aus Hamburg.
 
-![Cura Fortis Logo](assets/logos/curafortis-logo.svg)
+![DigniVita Logo](assets/logos/dignivita-logo.svg)
 
-## 📖 Über Cura Fortis
+## 📖 Über DigniVita
 
-Cura Fortis bringt osteopathische Versorgung zu Menschen, die sie am meisten brauchen – kostenfrei, professionell und mit Herz.
+DigniVita bringt osteopathische Versorgung zu Menschen, die sie am meisten brauchen – kostenfrei, professionell und mit Herz.
 
 Wir ermöglichen Kindern, Senioren und schwerkranken Menschen Zugang zu ganzheitlicher osteopathischer Behandlung in:
 - Kinder- und Jugendhilfeeinrichtungen
@@ -16,20 +16,19 @@ Wir ermöglichen Kindern, Senioren und schwerkranken Menschen Zugang zu ganzheit
 
 ## 🌟 Unsere Werte
 
-- **Mitgefühl** – Empathie und Würde für jeden Menschen
-- **Professionalität** – Qualifizierte Behandlung auf höchstem Niveau
-- **Gemeinschaft** – Zusammen bewirken wir mehr
-- **Nachhaltigkeit** – Langfristige Wirkung statt kurzfristige Lösungen
-- **Zugänglichkeit** – Barrierefrei in jeder Hinsicht
+- **Nächstenliebe** – Wir begegnen jedem Menschen mit Mitgefühl und echtem Interesse
+- **Würde** – Jeder Mensch verdient Respekt und Wertschätzung
+- **Füreinander** – Gemeinsam sind wir stark und unterstützen einander
+- **Wohlbefinden** – Ganzheitliche Gesundheit und Lebensqualität stehen im Mittelpunkt
 
 ## 🎨 Corporate Identity
 
-Diese Website folgt dem **Logo-Design** von Cura Fortis:
+Diese Website folgt dem **Logo-Design** von DigniVita:
 
 ### Farbpalette
-- **Cura Navy**: `#1a3a52` – Vertrauen, Stärke, Professionalität (aus dem Logo)
-- **Fortis Beige**: `#e8dcc8` – Wärme, Fürsorge, Sanftheit (aus dem Logo)
-- **Accent Teal**: `#4a7c8f` – Akzentfarbe, Harmonie
+- **Digni Blue**: `#2c5f7f` – Beruhigendes Blau - Würde & Vertrauen
+- **Vita Warm**: `#d4a574` – Warmes Beige-Gold - Nächstenliebe & Fürsorge
+- **Accent Green**: `#6b9080` – Sanftes Grün - Wohlbefinden & Heilung
 - **Sanftes Grau**: `#E8EBF0` – Hintergründe
 - **Tiefgrau**: `#3A4A5C` – Texte
 
@@ -40,7 +39,7 @@ Diese Website folgt dem **Logo-Design** von Cura Fortis:
 ## 📁 Projektstruktur
 
 ```
-lumoscare/
+dignivita/
 ├── index.html              # Hauptseite / Landingpage
 ├── css/
 │   ├── main.css           # Haupt-Stylesheet (importiert alle anderen)
@@ -76,8 +75,8 @@ lumoscare/
 
 1. Repository klonen:
 ```bash
-git clone https://github.com/shamanjii/lumoscare.git
-cd lumoscare
+git clone https://github.com/shamanjii/dignivita.git
+cd dignivita
 ```
 
 2. Die Website lokal öffnen:
@@ -105,7 +104,7 @@ Die Website wird automatisch über GitHub Pages bereitgestellt.
 
 Die Website ist dann verfügbar unter:
 ```
-https://shamanjii.github.io/lumoscare/
+https://shamanjii.github.io/dignivita/
 ```
 
 ### Eigene Domain verbinden
@@ -144,11 +143,11 @@ https://shamanjii.github.io/lumoscare/
 ## 📞 Kontakt
 
 **Lumos Vitalis eG**
-Projektleitung Cura Fortis
+Projektleitung DigniVita
 Christian Selzle & Joshua Alsen
 
 📧 vorstand@lumosvitalis.de
-🌐 www.lumosvitalis.de/curafortis
+🌐 www.lumosvitalis.de/dignivita
 📍 Mindelweg 6A, 22393 Hamburg
 
 **Start der Pilotphase:** Frühjahr 2026 in Hamburg

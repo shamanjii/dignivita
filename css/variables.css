@@ -1,23 +1,23 @@
 /*
- * Cura Fortis - CSS Variables
- * Basierend auf dem Corporate Identity und Logo-Design
+ * DigniVita - CSS Variables
+ * Basierend auf Corporate Identity und den Werten: Nächstenliebe, Würde, Füreinander, Wohlbefinden
  */
 
 :root {
-    /* Primärfarben aus dem Logo */
-    --cura-navy: #1a3a52;        /* Dunkles Navy-Blau aus dem Logo */
-    --fortis-beige: #e8dcc8;      /* Heller Beige-Hintergrund */
-    --cura-navy-light: #2d5570;   /* Helleres Navy für Hover */
+    /* Primärfarben für DigniVita */
+    --digni-blue: #2c5f7f;        /* Beruhigendes Blau - Würde & Vertrauen */
+    --vita-warm: #d4a574;         /* Warmes Beige-Gold - Nächstenliebe & Fürsorge */
+    --digni-blue-light: #4a7c9a;  /* Helleres Blau für Hover */
 
     /* Sekundärfarben */
     --soft-gray: #E8EBF0;
     --deep-gray: #3A4A5C;
-    --accent-teal: #4a7c8f;       /* Akzentfarbe abgeleitet vom Navy */
+    --accent-green: #6b9080;      /* Sanftes Grün - Wohlbefinden & Heilung */
     --white: #ffffff;
 
     /* Hover-Zustände */
-    --cura-navy-dark: #0f2433;
-    --fortis-beige-dark: #d4c5ab;
+    --digni-blue-dark: #1a4560;
+    --vita-warm-dark: #b8895a;
 
     /* Typografie */
     --font-primary: 'Poppins', sans-serif;
