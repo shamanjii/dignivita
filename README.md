@@ -158,7 +158,3 @@ Christian Selzle & Joshua Alsen
 Register: GnR 1159, Amtsgericht Hamburg
 
 Alle Rechte vorbehalten. Die Inhalte dieser Website dürfen nicht ohne schriftliche Genehmigung reproduziert werden.
-
----
-
-**Eine gemeinnützige Initiative für Menschen, die Berührung brauchen.**
