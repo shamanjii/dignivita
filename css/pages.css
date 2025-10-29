@@ -5,8 +5,8 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(44, 95, 127, 0.95), rgba(74, 124, 154, 0.90)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z" fill="%23E8EBF0" opacity="0.1"/></svg>');
+    background: linear-gradient(135deg, rgba(43, 88, 118, 0.95), rgba(61, 112, 150, 0.90)),
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z" fill="%23f2efe9" opacity="0.1"/></svg>');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -23,8 +23,8 @@
     right: -10%;
     width: 500px;
     height: 500px;
-    background: var(--vita-warm);
-    opacity: 0.15;
+    background: var(--primary-warmth);
+    opacity: 0.2;
     border-radius: 50%;
     z-index: 0;
 }
@@ -56,7 +56,7 @@
 }
 
 .about-text h3 {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     margin-bottom: var(--spacing-md);
 }
 
@@ -65,7 +65,7 @@
 }
 
 .about-image {
-    background: var(--soft-gray);
+    background: var(--neutral-light);
     border-radius: var(--radius-md);
     padding: var(--spacing-lg);
     text-align: center;
@@ -79,8 +79,8 @@
     right: -20px;
     width: 100px;
     height: 100px;
-    background: var(--digni-blue);
-    opacity: 0.1;
+    background: var(--primary-warmth);
+    opacity: 0.15;
     border-radius: 50%;
     z-index: 0;
 }
@@ -95,7 +95,7 @@
 
 /* Target Groups Section */
 .target-groups {
-    background: var(--soft-gray);
+    background: var(--neutral-light);
 }
 
 .groups-grid {
@@ -123,7 +123,7 @@
     width: 80px;
     height: 80px;
     margin: 0 auto var(--spacing-md);
-    background: var(--digni-blue);
+    background: var(--primary-blue);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
 }
 
 .group-card h3 {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     margin-bottom: var(--spacing-sm);
     font-size: 1.5rem;
 }
@@ -153,8 +153,8 @@
 .value-icon {
     width: 60px;
     height: 60px;
-    background: var(--vita-warm);
-    border: 2px solid var(--digni-blue);
+    background: var(--primary-warmth);
+    border: 2px solid var(--primary-blue);
     border-radius: 50%;
     margin: 0 auto var(--spacing-sm);
     display: flex;
@@ -164,13 +164,13 @@
 }
 
 .value-item h4 {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     margin-bottom: var(--spacing-xs);
 }
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(135deg, var(--digni-blue), var(--accent-green));
+    background: linear-gradient(135deg, var(--primary-blue), var(--secondary-sage));
     color: var(--white);
     text-align: center;
 }
@@ -189,7 +189,7 @@
 
 /* Contact Section */
 .contact {
-    background: var(--soft-gray);
+    background: var(--neutral-light);
 }
 
 .contact-content {
@@ -206,12 +206,12 @@
 }
 
 .contact-info a {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     font-weight: 600;
 }
 
 .contact-info a:hover {
-    color: var(--accent-green);
+    color: var(--primary-warmth);
 }
 
 /* Feature Section */
@@ -226,11 +226,11 @@
     padding: var(--spacing-lg);
     background: var(--white);
     border-radius: var(--radius-md);
-    border-left: 4px solid var(--digni-blue);
+    border-left: 4px solid var(--primary-blue);
 }
 
 .feature-card h3 {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     margin-bottom: var(--spacing-sm);
 }
 
@@ -244,7 +244,7 @@
     display: block;
     margin-bottom: var(--spacing-xs);
     font-weight: 600;
-    color: var(--deep-gray);
+    color: var(--text-primary);
 }
 
 .form-group input,
@@ -252,7 +252,7 @@
 .form-group select {
     width: 100%;
     padding: var(--spacing-sm);
-    border: 2px solid var(--soft-gray);
+    border: 2px solid var(--neutral-medium);
     border-radius: var(--radius-sm);
     font-family: var(--font-secondary);
     font-size: var(--fs-body);
@@ -263,7 +263,8 @@
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--digni-blue);
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px var(--primary-blue-alpha);
 }
 
 .form-group textarea {

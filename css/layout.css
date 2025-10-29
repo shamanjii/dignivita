@@ -36,7 +36,7 @@ nav {
 
 .logo-text h1 {
     font-size: 1.8rem;
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     line-height: 1.2;
     font-weight: 700;
     margin: 0;
@@ -44,7 +44,7 @@ nav {
 
 .logo-text p {
     font-size: 0.85rem;
-    color: var(--deep-gray);
+    color: var(--text-secondary);
 }
 
 /* Navigation Menu */
@@ -54,14 +54,14 @@ nav ul {
 }
 
 nav a {
-    color: var(--deep-gray);
+    color: var(--text-secondary);
     font-weight: 600;
     transition: color var(--transition-base);
 }
 
 nav a:hover,
 nav a.active {
-    color: var(--digni-blue);
+    color: var(--primary-blue);
 }
 
 /* Mobile Menu Toggle */
@@ -75,14 +75,14 @@ nav a.active {
 .menu-toggle span {
     width: 25px;
     height: 3px;
-    background: var(--digni-blue);
+    background: var(--primary-blue);
     border-radius: 2px;
     transition: var(--transition-base);
 }
 
 /* Footer */
 footer {
-    background: var(--deep-gray);
+    background: var(--text-primary);
     color: var(--white);
     padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
     text-align: center;
@@ -123,7 +123,7 @@ footer p {
 
 .footer-section h4 {
     margin-bottom: var(--spacing-sm);
-    color: var(--vita-warm);
+    color: var(--primary-warmth);
 }
 
 .footer-section ul {

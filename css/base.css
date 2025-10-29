@@ -15,7 +15,8 @@ html {
 
 body {
     font-family: var(--font-secondary);
-    color: var(--deep-gray);
+    color: var(--text-primary);
+    background-color: var(--neutral-cream);
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -85,6 +86,11 @@ section {
 
 /* Selection */
 ::selection {
-    background-color: var(--vita-warm);
-    color: var(--digni-blue);
+    background-color: var(--primary-warmth);
+    color: var(--white);
+}
+
+::-moz-selection {
+    background-color: var(--primary-warmth);
+    color: var(--white);
 }

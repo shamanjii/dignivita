@@ -19,16 +19,16 @@
 }
 
 .btn-primary {
-    background: var(--vita-warm);
-    color: var(--digni-blue);
-    border: 2px solid var(--digni-blue);
+    background: var(--primary-blue);
+    color: var(--white);
+    border: 2px solid var(--primary-blue);
 }
 
 .btn-primary:hover {
-    background: var(--digni-blue);
-    color: var(--vita-warm);
+    background: var(--primary-blue-dark);
+    color: var(--white);
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(44, 95, 127, 0.3);
+    box-shadow: 0 5px 20px var(--primary-blue-alpha);
 }
 
 .btn-secondary {
@@ -39,18 +39,31 @@
 
 .btn-secondary:hover {
     background: var(--white);
-    color: var(--digni-blue);
+    color: var(--primary-blue);
 }
 
 .btn-blue {
-    background: var(--digni-blue);
+    background: var(--primary-blue);
     color: var(--white);
 }
 
 .btn-blue:hover {
-    background: var(--digni-blue-dark);
+    background: var(--primary-blue-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
+}
+
+/* Neue Button-Varianten */
+.btn-warmth {
+    background: var(--primary-warmth);
+    color: var(--white);
+    border: 2px solid var(--primary-warmth);
+}
+
+.btn-warmth:hover {
+    background: var(--primary-warmth-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px var(--primary-warmth-alpha);
 }
 
 /* Button Groups */
@@ -77,7 +90,7 @@
 /* Section Title */
 .section-title {
     text-align: center;
-    color: var(--digni-blue);
+    color: var(--primary-blue);
     margin-bottom: var(--spacing-lg);
 }
 
@@ -108,12 +121,20 @@
 }
 
 .icon-primary {
-    background: var(--vita-warm);
-    border: 2px solid var(--digni-blue);
+    background: var(--primary-warmth);
+    border: 2px solid var(--primary-blue);
 }
 
 .icon-secondary {
-    background: var(--digni-blue);
+    background: var(--primary-blue);
+}
+
+.icon-sage {
+    background: var(--secondary-sage);
+}
+
+.icon-lavender {
+    background: var(--secondary-lavender);
 }
 
 /* Grid Layouts */
@@ -162,12 +183,12 @@
 
 /* Quote Box */
 .quote-box {
-    background: var(--vita-warm);
+    background: var(--primary-warmth-alpha);
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
-    border-left: 4px solid var(--digni-blue);
+    border-left: 4px solid var(--primary-warmth);
     font-style: italic;
-    color: var(--deep-gray);
+    color: var(--text-primary);
 }
 
 /* Background Variants */
@@ -175,16 +196,30 @@
     background: var(--white);
 }
 
+.bg-cream {
+    background: var(--neutral-cream);
+}
+
 .bg-gray {
-    background: var(--soft-gray);
+    background: var(--neutral-light);
 }
 
 .bg-blue {
-    background: var(--digni-blue);
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+.bg-warmth {
+    background: var(--primary-warmth);
     color: var(--white);
 }
 
 .bg-gradient-blue {
-    background: linear-gradient(135deg, var(--digni-blue), var(--accent-green));
+    background: linear-gradient(135deg, var(--primary-blue), var(--secondary-sage));
+    color: var(--white);
+}
+
+.bg-gradient-warmth {
+    background: linear-gradient(135deg, var(--primary-warmth), var(--primary-warmth-light));
     color: var(--white);
 }

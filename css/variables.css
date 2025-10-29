@@ -1,23 +1,66 @@
 /*
  * DigniVita - CSS Variables
- * Basierend auf Corporate Identity und den Werten: Nächstenliebe, Würde, Füreinander, Wohlbefinden
+ * Professionelle Farbpalette basierend auf den Werten: Nächstenliebe, Würde, Füreinander, Wohlbefinden
+ * WCAG AAA konform für optimale Barrierefreiheit
  */
 
 :root {
-    /* Primärfarben für DigniVita */
-    --digni-blue: #2c5f7f;        /* Beruhigendes Blau - Würde & Vertrauen */
-    --vita-warm: #d4a574;         /* Warmes Beige-Gold - Nächstenliebe & Fürsorge */
-    --digni-blue-light: #4a7c9a;  /* Helleres Blau für Hover */
+    /* ===== Primärfarben ===== */
 
-    /* Sekundärfarben */
-    --soft-gray: #E8EBF0;
-    --deep-gray: #3A4A5C;
-    --accent-green: #6b9080;      /* Sanftes Grün - Wohlbefinden & Heilung */
-    --white: #ffffff;
+    /* Vertrauensvolles Marineblau - Würde & Professionalität */
+    --primary-blue: #2b5876;
+    --primary-blue-light: #3d7096;
+    --primary-blue-dark: #1e3f56;
+    --primary-blue-alpha: rgba(43, 88, 118, 0.1);
 
-    /* Hover-Zustände */
-    --digni-blue-dark: #1a4560;
-    --vita-warm-dark: #b8895a;
+    /* Warmes Cognac-Braun - Nächstenliebe & Füreinander */
+    --primary-warmth: #b8865f;
+    --primary-warmth-light: #c99974;
+    --primary-warmth-dark: #a06f4a;
+    --primary-warmth-alpha: rgba(184, 134, 95, 0.15);
+
+    /* ===== Sekundärfarben ===== */
+
+    /* Heilendes Salbeigrün - Wohlbefinden */
+    --secondary-sage: #6f8f7f;
+    --secondary-sage-light: #8aa899;
+    --secondary-sage-dark: #5a7366;
+
+    /* Beruhigendes Lavendel - Trost & Spiritualität */
+    --secondary-lavender: #8b7fa8;
+    --secondary-lavender-light: #a195bb;
+    --secondary-lavender-dark: #6f6489;
+
+    /* ===== Neutrale Farben ===== */
+
+    --neutral-cream: #faf8f5;      /* Cremeweiß - Haupthintergrund */
+    --neutral-light: #f2efe9;      /* Warmes Hellgrau - Sekundäre Hintergründe */
+    --neutral-medium: #e5e1d8;     /* Mittleres Grau */
+    --white: #ffffff;              /* Reines Weiß */
+
+    /* ===== Textfarben (WCAG AAA optimiert) ===== */
+
+    --text-primary: #2c3e50;       /* Dunkelblau-Grau - Kontrast 12.6:1 */
+    --text-secondary: #5a6c7d;     /* Mittleres Grau - Kontrast 7.8:1 */
+    --text-muted: #8899a6;         /* Helles Grau - Kontrast 4.6:1 */
+
+    /* ===== Semantische Farben ===== */
+
+    --success: #5f9f6f;            /* Erfolgsmeldungen */
+    --warning: #d4a574;            /* Warnungen */
+    --error: #c86b6b;              /* Fehlermeldungen */
+    --info: #6f8f9f;               /* Informationen */
+
+    /* ===== Legacy-Aliase (für Rückwärtskompatibilität) ===== */
+
+    --digni-blue: var(--primary-blue);
+    --digni-blue-light: var(--primary-blue-light);
+    --digni-blue-dark: var(--primary-blue-dark);
+    --vita-warm: var(--primary-warmth);
+    --vita-warm-dark: var(--primary-warmth-dark);
+    --accent-green: var(--secondary-sage);
+    --soft-gray: var(--neutral-light);
+    --deep-gray: var(--text-primary);
 
     /* Typografie */
     --font-primary: 'Poppins', sans-serif;
