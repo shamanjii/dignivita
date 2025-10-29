@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="heartGradientIcon" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#c99974;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#b8865f;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="handsGradientIcon" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#3d7096;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2b5876;stop-opacity:1" />
-    </linearGradient>
   </defs>
 
-  <!-- Linke Hand (vereinfacht) -->
-  <path d="M 13 33 Q 12 30, 13 26 Q 13.5 23, 15 21 Q 16.5 20, 18 20.5 Q 19 21, 19.5 22.5 Q 19.5 20, 21 19 Q 22.5 18, 24 19 Q 25 20, 25 22 Q 25 19.5, 27 18.5 Q 29 18, 30 19.5 Q 31 21, 30.5 23 L 30 29 Q 29.5 32, 27 35 Q 25 38, 21 38 Q 18 38, 15 35.5 Q 13.5 34, 13 33 Z"
-        fill="url(#handsGradientIcon)"/>
-
-  <!-- Rechte Hand (gespiegelt, vereinfacht) -->
-  <path d="M 47 33 Q 48 30, 47 26 Q 46.5 23, 45 21 Q 43.5 20, 42 20.5 Q 41 21, 40.5 22.5 Q 40.5 20, 39 19 Q 37.5 18, 36 19 Q 35 20, 35 22 Q 35 19.5, 33 18.5 Q 31 18, 30 19.5 Q 29 21, 29.5 23 L 30 29 Q 30.5 32, 33 35 Q 35 38, 39 38 Q 42 38, 45 35.5 Q 46.5 34, 47 33 Z"
-        fill="url(#handsGradientIcon)"/>
-
-  <!-- Herz -->
-  <path d="M 30 42 C 30 42, 22.5 36, 22.5 30 C 22.5 25.5, 25.5 22.5, 28.5 22.5 C 30 22.5, 30 24, 30 24 C 30 24, 30 22.5, 31.5 22.5 C 34.5 22.5, 37.5 25.5, 37.5 30 C 37.5 36, 30 42, 30 42 Z"
+  <!-- Vereinfachtes großes Herz -->
+  <path d="M 40 65 C 40 65, 20 50, 20 35 C 20 24, 27 17, 35 17 C 37.5 17, 40 20, 40 20 C 40 20, 42.5 17, 45 17 C 53 17, 60 24, 60 35 C 60 50, 40 65, 40 65 Z"
         fill="url(#heartGradientIcon)"
-        stroke="#a06f4a"
-        stroke-width="1"/>
+        stroke="#2b5876"
+        stroke-width="3"/>
 
-  <!-- Highlight -->
-  <circle cx="28.5" cy="26" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Vereinfachte schützende Hände (als Kurven) -->
+  <path d="M 15 40 Q 10 35, 12 25 Q 13 20, 18 20 Q 20 20, 22 24 L 25 32"
+        fill="none"
+        stroke="#2b5876"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <path d="M 65 40 Q 70 35, 68 25 Q 67 20, 62 20 Q 60 20, 58 24 L 55 32"
+        fill="none"
+        stroke="#2b5876"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <!-- Highlight auf Herz -->
+  <circle cx="35" cy="28" r="3" fill="white" opacity="0.6"/>
 </svg>
